@@ -134,7 +134,7 @@
 .about {
   position: relative;
   background-color: #dcdcdc;
-  height: 40vh;
+  height: 50vh;
 }
 
 .about-img {
@@ -356,14 +356,14 @@
 .wrqpper {
   display: flex;
   justify-content: space-between;
-  padding: 180px 4vw;
+  padding: 150px 4vw;
 }
 
 .card {
-  width: 280px;
+  width: 30%;
   position: relative;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .card::after {
@@ -404,19 +404,20 @@
 .tag {
   font-size: 14px;
   line-height: 30px;
-  margin: 0 7px;
+  margin: 0 15px;
 }
 
 .card-date {
   display: inline-block;
   text-align: left;
-  margin: -1px 0 0 0;
+  margin: 0 6px 0;
 }
 
 .card-tag {
   display: inline-block;
   text-align: right;
-  margin: 0 0 0 6vw;
+  position: absolute;
+  right: 15px;
 }
 
 .blog-button {
