@@ -33,7 +33,6 @@
 .eyecatch-img-container {
   width: 60%;
   margin: 100px 0 0 auto;
-
 }
 
 .eyecatch-img {
@@ -43,7 +42,7 @@
 }
 
 .catch-copy {
-  font-family: 'Schoolbell', cursive;
+  font-family: "Schoolbell", cursive;
   position: absolute;
   bottom: 60%;
   left: 15%;
@@ -81,10 +80,12 @@
 
 .catch-copy-text {
   position: absolute;
-  bottom: 3%;
+  bottom: 16%;
   left: 15%;
   font-size: 14px;
   color: dimgray;
+  text-align: left;
+  line-height: 16px;
 }
 
 .news {
@@ -94,7 +95,7 @@
 }
 
 .news-ttl-webfont {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   color: #c71585;
   margin: 0 600px 0 0;
 }
@@ -112,13 +113,13 @@
   border-top: solid #dcdcdc;
   border-bottom: solid #dcdcdc;
   display: block;
+  border-width: 2px;
 }
 
 .news-nav-list-item {
-
   display: flex;
   padding: 15px;
-  border-bottom: 5px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
   white-space: nowrap;
 }
 
@@ -133,7 +134,7 @@
 .about {
   position: relative;
   background-color: #dcdcdc;
-  height: 60vh;
+  height: 40vh;
 }
 
 .about-img {
@@ -145,7 +146,7 @@
 .about-img-container {
   width: 32%;
   position: absolute;
-  top:  35%;
+  top: 35%;
   left: 60%;
 }
 
@@ -155,20 +156,20 @@
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
-  -webkit-transform:translateX(-50%);
-  -ms-transform:translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   color: dimgray;
 }
 
 .about-ttl-webfont {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   color: #c71585;
   position: absolute;
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
-  -webkit-transform:translateX(-50%);
-  -ms-transform:translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
 }
 
 .about-text1 {
@@ -196,11 +197,11 @@
 }
 
 .service-ttl-webfont {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   color: #c71585;
   position: absolute;
   top: -15%;
-  left: 7%
+  left: 7%;
 }
 
 .service-ttl-text {
@@ -239,9 +240,9 @@
 }
 
 .item-ttl1 {
-text-align: center;
-margin: -31vh 0 15px;
-font-size: 20px;
+  text-align: center;
+  margin: -31vh 0 15px;
+  font-size: 20px;
 }
 
 .item-text1 {
@@ -260,7 +261,7 @@ font-size: 20px;
 .service-img-container1 {
   width: 50%;
   display: block;
-  margin: 10% auto 0 auto
+  margin: 10% auto 0 auto;
 }
 
 .service-img2 {
@@ -272,13 +273,15 @@ font-size: 20px;
 .service-img-container2 {
   width: 17vw;
   display: block;
-  margin: 1% 0;
+  position: absolute;
+  top: 20%;
+  left: 5%;
 }
 
 .item-ttl2 {
   position: absolute;
-  right: 17vw;
-  top: 6vw;
+  left: 22vw;
+  top: 10vw;
   font-size: 20px;
 }
 
@@ -286,7 +289,7 @@ font-size: 20px;
   position: absolute;
   font-size: 13px;
   line-height: 3vh;
-  top: 9vw;
+  top: 11vw;
   padding: 25px;
   left: 19vw;
 }
@@ -300,22 +303,24 @@ font-size: 20px;
 .service-img-container3 {
   width: 17vw;
   display: block;
-  margin: 1% 0;
+  position: absolute;
+  top: 20%;
+  left: 5%;
 }
 
 .item-ttl3 {
   position: absolute;
   left: 22vw;
-  top: 5vw;
+  top: 10vw;
   font-size: 20px;
 }
 
 .item-text3 {
   position: absolute;
   font-size: 13px;
-  top: 9vw;
-  left: 20vw;
-  padding: 20px;
+  top: 11vw;
+  left: 19vw;
+  padding: 25px;
   line-height: 3vh;
 }
 
@@ -331,7 +336,7 @@ font-size: 20px;
 }
 
 .blog-ttl-webfont {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   position: absolute;
   left: 5%;
   bottom: -79px;
@@ -362,7 +367,7 @@ font-size: 20px;
 }
 
 .card::after {
-  content: 'Blog';
+  content: "Blog";
   background-color: #c71585;
   position: absolute;
   top: 0;
@@ -382,13 +387,13 @@ font-size: 20px;
   margin: -19px 0 -14px;
 }
 
-.card-img img{
+.card-img img {
   width: 100%;
   border-radius: 20px 20px 0 0;
 }
 
 .card-content {
-  padding: 3%
+  padding: 3%;
 }
 
 .card-ttl {
@@ -432,7 +437,7 @@ font-size: 20px;
 }
 
 .company-ttl-webfont {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   color: #c71585;
   position: absolute;
   display: block;
