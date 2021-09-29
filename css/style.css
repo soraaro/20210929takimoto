@@ -144,9 +144,9 @@
 }
 
 .about-img-container {
-  width: 32%;
+  width: 30%;
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 60%;
 }
 
@@ -213,7 +213,7 @@
 
 .service-list {
   display: grid;
-  margin: 15% 3%;
+  margin: 0 35px;
   grid-template-rows: 30vh 30vh;
   grid-template-columns: 1fr 1fr;
   color: #fff;
@@ -422,15 +422,17 @@
 
 .blog-button {
   text-decoration: none;
-  width: 180px;
-  padding: 20px 0;
+  width: 200px;
+  padding: 25px;
   color: #c71585;
   border-radius: 30px;
   background-color: #fff;
   text-align: center;
-  margin: -105px auto 0;
+  margin: -100px auto 0;
+  font-size: 16px;
   display: block;
   border: 2px solid #c71585;
+  font-weight: bold;
 }
 
 .company {
